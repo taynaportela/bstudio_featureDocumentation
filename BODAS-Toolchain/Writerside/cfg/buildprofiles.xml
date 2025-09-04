@@ -1,0 +1,62 @@
+<buildprofiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd">
+    <sitemap change-frequency="monthly"/>
+    <variables>
+        <custom-css>custom.css</custom-css>
+        <primary-color>#00C8F7</primary-color>
+        <custom-favicons>favicon-16x16.png</custom-favicons>
+        <header-logo>Rexroth-Logo_RGB_dark.svg</header-logo>
+        <download-title>Get Support</download-title>
+        <download-page>https://support-mybodas.atlassian.net/servicedesk/customer/portal/5</download-page>
+        <showDownloadButton>true</showDownloadButton>
+        <feedback-support>connect.BODAS@boschrexroth.de</feedback-support>
+        <content-max-width>1400</content-max-width>
+        <!--
+         Ignored Problems:
+         VIS011: Dark version of image or video file cannot be found
+         -->
+        <ignore-problems>VIS011</ignore-problems>
+    </variables>
+
+    <footer>
+        <copyright>Bosch Rexroth AG 2025</copyright>
+        <social type="email" href="connect.BODAS@boschrexroth.de"/>
+        <social type="blog"
+                href="https://community.mybodas.boschrexroth.com/t5/mybodas-knowledge-base/bodas-connect-your-ultimate-resource-hub/ba-p/3940"/>
+        <social type="github" href="https://github.com/boschrexroth"/>
+        <link href="https://www.boschrexroth.com/en/dc/imprint/">Imprint</link>
+        <link href="https://www.boschrexroth.com/en/dc/data-protection-notice/">Data Protection Notice</link>
+        <link href="https://www.boschrexroth.com/en/dc/legal-notice/">Legal Notice</link>
+        <link href="contact.html">Contact</link>
+    </footer>
+    <build-profile instance="main">
+        <variables>
+            <offline-docs>true</offline-docs>
+            <noindex-content>true</noindex-content>
+        </variables>
+    </build-profile>
+    <build-profile instance="public">
+        <variables>
+            <noindex-content>true</noindex-content>
+            <offline-docs>true</offline-docs>
+        </variables>
+    </build-profile>
+    <build-profile instance="internal">
+        <variables>
+            <noindex-content>true</noindex-content>
+            <offline-docs>true</offline-docs>
+            <product-web-url>
+                https://pages.github.boschdevcloud.com/DCIO/doc.user-documentation
+            </product-web-url>
+        </variables>
+    </build-profile>
+    <build-profile instance="pdf">
+        <variables>
+            <noindex-content>true</noindex-content>
+            <offline-docs>true</offline-docs>
+        </variables>
+    </build-profile>
+
+    <llms-txt/>
+
+</buildprofiles>

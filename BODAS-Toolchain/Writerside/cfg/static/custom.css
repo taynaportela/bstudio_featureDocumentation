@@ -1,0 +1,38 @@
+:root {
+    --dc-color-turquoise: #00C8F7;
+    --dc-color-darkblue: #002b49;
+    --dc-color-red: #ED0007;
+    --dc-color-bluegrey: #506E81;
+    --wh-color-text-heading: var(--dc-color-darkblue);
+    --wh-color-border-hover: var(--dc-color-darkblue);
+    --app-header: var(--dc-color-darkblue);
+    --app-footer: var(--dc-color-darkblue);
+    --rs-font-family-headers: BoschSansBold;
+}
+
+@font-face {
+    font-family: BoschSans;
+    src: url("BoschSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: BoschSansBold;
+    src: url("BoschSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: BoschSansBlack;
+    src: url("BoschSans-Black.ttf") format("truetype");
+}
+
+.wh-header__product-name {
+    font-family: BoschSans;
+}
+
+.title__content {
+    font-family: BoschSansBold;
+}
+
+.article__p {
+    font-family: BoschSans;
+}
