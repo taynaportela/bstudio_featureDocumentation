@@ -1,4 +1,4 @@
-# How-to
+# Learn How-to
 
 > If you need more information about how to fill in this template, read the accompanying [guide](https://gitlab.com/tgdp/templates/-/blob/v1.2.0/how-to/guide_how-to.md).
 >

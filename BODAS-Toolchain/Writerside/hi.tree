@@ -10,13 +10,6 @@
     <toc-element topic="Overview.md"/>
     <toc-element topic="Getting-Started.md">
         <toc-element topic="Part-1-Introduction-Setup.md">
-            <toc-element topic="1-myBODAS-OnBoarding.md"/>
-            <toc-element topic="Data-Download.md"/>
-            <toc-element topic="3-easyConfig-Onboarding.md"/>
-            <toc-element topic="4-C-Editor.md"/>
-            <toc-element topic="Installation-Setup-of-CODESYS-3-5.md"/>
-            <toc-element topic="6-Introduction-BODAS-service-4-x.md"/>
-            <toc-element topic="7-Installation-BODAS-service-Editor-4-x.md"/>
         </toc-element>
         <toc-element topic="Default-topic.md">
             <toc-element topic="Part-1-Configure-the-BSW-in-easyConfig.md"/>
@@ -25,6 +18,7 @@
         </toc-element>
     </toc-element>
     <toc-element topic="How-to.md"/>
+    <toc-element topic="How-to_2.md"/>
     <toc-element topic="Tutorial.md">
         <toc-element topic="UDS-Stack.md"/>
     </toc-element>
@@ -37,6 +31,19 @@
     </toc-element>
     <toc-element topic="API-reference.md"/>
     <toc-element topic="Hardware.md"/>
+    <toc-element topic="Troubleshooting-Common-Issues.md"/>
+    <toc-element topic="How-to_3.md">
+        <toc-element topic="Understanding-the-RC40-Architecture.md"/>
+        <toc-element topic="NVM-Non-Volatile-Memory-Usage.md"/>
+        <toc-element topic="Task-Scheduling-and-Real-Time-Concepts.md"/>
+        <toc-element topic="CAN-communication.md">
+        </toc-element>
+    </toc-element>
+    <toc-element topic="How-to_4.md">
+        <toc-element topic="Version-Control-Integration-Git.md"/>
+        <toc-element topic="Automated-Build-Processes-Basic.md"/>
+        <toc-element topic="Simulation-Debugging-Techniques.md"/>
+    </toc-element>
     <toc-element topic="Glossary.md"/>
     <toc-element topic="Release-notes.md"/>
 </instance-profile>

@@ -9,3 +9,12 @@
 |   {(Term)}  |  {(Abbreviation)}   |  {(Definition)}   |   {(Source)}   |
 
 {(Explore other templates from [The Good Docs Project](https://gitlab.com/tgdp/templates). Use our [feedback form](https://thegooddocsproject.dev/feedback/?template=Glossary) to give feedback on this template.)}
+## Glossary
+
+A definition list or a glossary:
+
+First Term
+: This is the definition of the first term.
+
+Second Term
+: This is the definition of the second term.

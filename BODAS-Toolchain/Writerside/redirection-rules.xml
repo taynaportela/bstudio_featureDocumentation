@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rules SYSTEM "https://resources.jetbrains.com/writerside/1.0/redirection-rules.dtd">
+<rules>
+    <!-- format is as follows
+    <rule id="<unique id>">
+        <accepts>page.html</accepts>
+    </rule>
+    -->
+    <rule id="3f79c105">
+        <description><![CDATA[Created after removal of "<1-myBODAS-OnBoarding.md>" from BODAS Toolchain]]></description>
+        <accepts>1-myBODAS-OnBoarding.html</accepts>
+    </rule>
+    <rule id="7882c4ea">
+        <description>Created after removal of "2. Data Download" from BODAS Toolchain</description>
+        <accepts>Data-Download.html</accepts>
+    </rule>
+    <rule id="26b0926e">
+        <description>Created after removal of "3. easyConfig Onboarding" from BODAS Toolchain</description>
+        <accepts>3-easyConfig-Onboarding.html</accepts>
+    </rule>
+    <rule id="582b165">
+        <description>Created after removal of "4. C-Editor" from BODAS Toolchain</description>
+        <accepts>4-C-Editor.html</accepts>
+    </rule>
+    <rule id="431da497">
+        <description>Created after removal of "5. Installation / Setup of CODESYS 3.5" from BODAS Toolchain
+        </description>
+        <accepts>Installation-Setup-of-CODESYS-3-5.html</accepts>
+    </rule>
+    <rule id="727de25e">
+        <description>Created after removal of "6. Introduction BODAS-service 4.x" from BODAS Toolchain</description>
+        <accepts>6-Introduction-BODAS-service-4-x.html</accepts>
+    </rule>
+    <rule id="54844962">
+        <description>Created after removal of "7. Installation BODAS-service Editor 4.x" from BODAS Toolchain
+        </description>
+        <accepts>7-Installation-BODAS-service-Editor-4-x.html</accepts>
+    </rule>
+</rules>

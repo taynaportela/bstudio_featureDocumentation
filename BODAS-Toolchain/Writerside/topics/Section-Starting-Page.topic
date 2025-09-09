@@ -29,7 +29,7 @@
 
         <!--    Add several topics that are most important for this section.    -->
         <primary>
-            <title>Get started</title>
+            <title>Getting started</title>
             <card href=""/>
             <card href="" summary="With a custom card summary"/>
             <card href="">Custom card title</card>
